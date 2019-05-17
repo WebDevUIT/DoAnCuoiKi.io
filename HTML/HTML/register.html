@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PTMOBILE - ĐĂNG KÝ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+            <div class="header-text">
+                <h1>PTMOBILE</h1>
+                <p>The world of smartphones</p>
+            </div>
+            <div class="banner">
+                <img src="images/banner.jpg" />
+            </div>
+        </div>
+            
+    <div class="border-of-container">
+        <div class="main-container">
+        
+            <div class="topnav" id="navbar">
+                <a href="index.html">Trang chủ</a>
+                <a class="active" href="register.html">Đăng ký</a>
+                <a href="login.html">Đăng nhập</a>
+            
+                <div class="search-container">
+                    <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <a href="basket.html" style="background: #F39C12;float: right; font-weight: bold; letter-spacing: 1.3;"><i class="fas fa-shopping-basket"></i>  GIỎ HÀNG</a>
+            </div>
+        
+            <div class="banner-ads">
+                <img src="images/banner-ads.jpeg" />
+            </div>
+            <div class="main-content">
+                <form class="register-form" action="/dangky" method="post" name="form1">
+                    <table width="40%" border="0" align="center" cellpadding="1" cellspacing="1">
+                        <tr>
+                            <td><p>&nbsp;Tên đăng nhập: </p></td>
+                            <td><label>
+                                <input name="ten_dn" type="text" id="ten_dn" size="35">
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><p>&nbsp;Mật khẩu:</p></td>
+                            <td><label>
+                                <input name="mat_khau" type="password" id="mat_khau">
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;Mật khẩu xác nhận:</span></td>
+                            <td><input name="mat_khau1" type="password" id="mat_khau1"></td>
+                        </tr>
+                        <tr>
+                            <td><p>&nbsp;Họ và tên: </p></td>
+                            <td><label>
+                                <input name="ho_ten" type="text" id="ho_ten" size="35">
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><p>&nbsp;Địa chỉ email: </p></td>
+                            <td><label>
+                                <input name="email" type="text" id="email" size="35">
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;Địa chỉ liên lạc:</span></td>
+                            <td><input name="dia_chi" type="text" id="dia_chi" size="45"></td>
+                        </tr>
+                        <tr>
+                            <td><p>&nbsp;Số điện thoại: </p></td>
+                            <td><label>
+                                <input name="so_dt" type="text" id="so_dt">
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td height="35" colspan="2"><p align="center">
+                                <label>
+                                    <br>
+                                    <input class="main-button" type="submit" name="Submit" value="Đăng ký">
+                                </label>
+                            </p></td>
+                        </tr>
+                    </table>
+                    </form>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="border-of-container">
+        <div class="about">
+            <div class="about-header">
+                <h4>ABOUT US</h4>
+            </div>
+            <div class="about-content">
+                <div class="about-left">
+                    <p>Kỹ thuật phát triển hệ thống Web</p>
+                    <p>UIT TEAM</p>
+                    <p>Thành viên nhóm: Nguyễn Ngọc Tuân, Phan Xuân Phong, Trần Đức Thắng</p>
+                </div>
+                <div class="about-right">
+                    <p>Liên hệ: 0374988XXX</p>
+                    <p>Địa chỉ: Phường Linh Trung, Quận Thủ Đức, TP.HCM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> ▲ </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
